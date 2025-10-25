@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Graham Balls — Landing Page</title>
+
+  <!-- ✅ Fixed Google Fonts link -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- ✅ CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- ✅ Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <meta name="description"
+    content="Graham Balls — strategic planning, digital transformation and growth services for your company." />
+
+  <!-- ✅ SVG Favicon -->
+  <link rel="icon" href='data:image/svg+xml;utf8,
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+        <rect width="100%" height="100%" fill="#3b82f6"/>
+        <text x="50%" y="55%" font-size="50" text-anchor="middle" fill="white" font-family="Arial" font-weight="700">GB</text>
+      </svg>'>
+</head>
+
+<body>
+  <nav role="navigation" aria-label="Main navigation">
+    <a href="#section1">Home</a>
+    <a href="#section2">About</a>
+    <a href="#section3">Product</a>
+    <a href="#contact">Contact</a>
+  </nav>
+ 
+  <header class="hero" id="section1">
+    <div class="hero-flex">
+      <div class="hero-left">
+        <h1>Welcome to my bite-size bliss <span style="color:var(--bg)">Graham Balls</span></h1>
+        <h2>More insight, less friction</h2>
+        <div style="display: flex; justify-content: center; margin-bottom: 1rem;">
+          <p style="max-width:520px">
+            Satisfy your sweet cravings with these no-cook Graham Balls! These dessert bites are as fun to make as they are to eat. Soft and delicious with various coating and filling choices, they're sure to hit the spot!
+          </p>
+        </div>
+        <a class="cta-button" href="#contact">View more</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="section2" class="about">
+      <div class="about-me card">
+        <h1>About Graham Balls</h1>
+        <div class="about-me-img-container">
+          <img src="download.jpg" alt="Our Team" class="profile-img" loading="lazy">
+        </div>
+        <p>
+          Graham Balls – Sweetness You Can’t Resist! Soft, chewy, and loaded with creamy goodness — our Graham Balls
+          are the ultimate bite-sized happiness! Each ball is made with crushed graham crackers, milk, and a whole lot
+          of love, then rolled and coated with yummy sprinkles or chocolate. One bite, and you’ll keep coming back for
+          more.
+        </p>
+      </div>
+    </section>
+
+    <section id="section3" class="product-flavors">
+      <div class="skills-card">
+        <h1>Graham Balls Flavors</h1>
+        <div class="grid">
+          <div class="grid-item">
+            <img src="classic.jpg" alt="Classic Graham Balls" class="profile-img" loading="lazy">
+            <b>Classic Graham Balls</b>
+            <p>Our original flavor — soft, creamy, and coated in crushed graham crackers. Perfect for any occasion.</p>
+          </div>
+          <div class="grid-item">
+            <img src="bal.jpg" alt="Ube Graham Balls" class="profile-img" loading="lazy">
+            <b>Ube Graham Balls</b>
+            <p>Infused with real ube for a vibrant purple color and a sweet, nutty twist on the classic treat.</p>
+          </div>
+          <div class="grid-item">
+            <img src="choco.jpg" alt="Chocolate Graham Balls" class="profile-img" loading="lazy">
+            <b>Chocolate Graham Balls</b>
+            <p>Rich chocolate filling wrapped in graham goodness, ideal for chocolate lovers and celebrations.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="contact-card">
+        <h1>Contact Us</h1>
+        <div class="contact-container">
+          <div class="contact-info">
+            <h3>Get in touch</h3>
+            <p><i class="fas fa-phone"></i> +63 909-6933-871</p>
+            <p><i class="fas fa-envelope"></i> markleeatencia14@gmail.com</p>
+            <p><i class="fas fa-location-dot"></i> Katmon Bulak Amparo Subd.<br>Barangay 179, Caloocan City</p>
+          </div>
+
+          <div class="contact-form">
+            <form action="mailto:markleeatencia14@gmail.com" method="post" enctype="text/plain">
+              <div class="form-group">
+                <input type="text" id="name" name="Name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" id="email" name="Email" placeholder="Your Email" required>
+              </div>
+              <div class="form-group">
+                <input type="text" id="company" name="Company" placeholder="Your Company">
+              </div>
+              <div class="form-group">
+                <textarea id="message" name="Message" placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            <p class="small">
+              This form will open your mail client with the entered details (client support varies).
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <img src="graham.jpg" alt="Graham Balls Logo" class="footer-logo">
+        <p>Graham Balls — product strategy and delivery that scales.</p>
+      </div>
+      <div class="footer-section">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#section1">Home</a></li>
+          <li><a href="#section2">About</a></li>
+          <li><a href="#section3">Services</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Connect</h3>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Graham Balls. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+
+</html>
